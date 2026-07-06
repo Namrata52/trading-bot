@@ -1,0 +1,23 @@
+2026-07-06 15:42:44,464 | INFO | Trading Bot Started
+2026-07-06 16:38:50,438 | INFO | Sending MARKET order | Symbol=BTCUSDT Side=BUY Quantity=0.001
+2026-07-06 16:38:50,665 | INFO | Order Success | Response={'orderId': 19552332659, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ4c364e85a628cec6bf98f2', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783336130650}
+2026-07-06 16:43:01,193 | INFO | Sending MARKET order | Symbol=BTCUSDT Side=BUY Quantity=0.001
+2026-07-06 16:43:01,507 | INFO | Order Success | Response={'orderId': 19553120318, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJa43e6a098fbcff84176032', 'price': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1783336381479}
+2026-07-06 16:52:32,157 | INFO | Sending LIMIT order | Symbol=BTCUSDT Side=BUY Quantity=0.001 Price=10000.0
+2026-07-06 16:52:32,470 | ERROR | Limit Order Failed | APIError(code=-4164): Order's notional must be no smaller than 50 (unless you choose reduce only).
+2026-07-06 16:56:21,647 | INFO | Sending LIMIT order | Symbol=BTCUSDT Side=BUY Quantity=0.001 Price=50000.0
+2026-07-06 16:56:21,859 | INFO | Limit Order Success | Order ID=19555611854 | Status=NEW
+2026-07-06 17:02:21,654 | INFO | Cancelling Order | Symbol=BTCUSDT | Order ID=19555611854
+2026-07-06 17:02:21,975 | INFO | Order Cancelled | Order ID=19555611854 | Status=CANCELED
+2026-07-06 17:11:12,966 | ERROR | Order Failed | cannot access local variable 'order' where it is not associated with a value
+2026-07-06 17:18:17,412 | INFO | Sending MARKET order | Symbol=BTCUSDT Side=BUY Quantity=0.001
+2026-07-06 17:30:58,972 | INFO | Sending MARKET order | Symbol=ETHUSDT Side=BUY Quantity=0.001
+2026-07-06 17:30:59,274 | ERROR | Order Failed | APIError(code=-4164): Order's notional must be no smaller than 20 (unless you choose reduce only).
+2026-07-06 17:48:41,325 | INFO | Sending LIMIT order | Symbol=BTCUSDT Side=BUY Quantity=0.001 Price=50000.0
+2026-07-06 17:48:41,543 | INFO | Limit Order Success | Order ID=19565333775 | Status=NEW
+2026-07-06 17:54:06,491 | INFO | Sending LIMIT order | Symbol=BTCUSDT Side=SELL Quantity=0.001 Price=50000.0
+2026-07-06 17:54:06,725 | ERROR | Limit Order Failed | APIError(code=-4024): Limit price can't be lower than 58910.17.
+2026-07-06 17:54:40,254 | INFO | Sending LIMIT order | Symbol=BTCUSDT Side=SELL Quantity=0.001 Price=70000.0
+2026-07-06 17:54:40,467 | INFO | Limit Order Success | Order ID=19566525159 | Status=NEW
+2026-07-06 17:59:40,138 | INFO | Cancelling Order | Symbol=BTCUSDT | Order ID=19566525159
+2026-07-06 17:59:40,353 | INFO | Order Cancelled | Order ID=19566525159 | Status=CANCELED
